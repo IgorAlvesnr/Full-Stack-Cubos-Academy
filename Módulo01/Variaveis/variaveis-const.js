@@ -1,3 +1,4 @@
+//Criar uma variável e guardar um string
 const primeiroNome = "José";
 
 console.log(primeiroNome);
