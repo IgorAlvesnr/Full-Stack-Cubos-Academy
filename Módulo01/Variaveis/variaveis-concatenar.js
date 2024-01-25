@@ -1,7 +1,10 @@
 let nome = "Igor";
 let sobrenome = "Alves";
-let nomeCompleto = nome + " " + sobrenome;//utiliza o "+" depois e antes das strings que quer juntar.
-console.log(nomeCompleto);
+let nomeCompleto = nome + sobrenome;//utiliza o "+" para concatenar
+console.log(nomeCompleto); //Aparecerá IgorAlves tudo junto, pois quando concatena ele não reconhece o espaço.
+
+nomeCompleto = nome + " " + sobrenome;
+console.log(nomeCompleto); //Agora aparecerá o nome com espaço por foi usado uma string de espaço entre os sinais de concatenar.
 
 let produto = "Livro";
 let preço = 50;
