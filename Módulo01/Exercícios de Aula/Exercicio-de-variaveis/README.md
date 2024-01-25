@@ -1,0 +1,1 @@
+Está pasta guarda os exercícios de variáveis.
