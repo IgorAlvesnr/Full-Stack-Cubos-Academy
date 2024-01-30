@@ -15,3 +15,8 @@ if (jogador1 === jogador2) {
     else {
         console.log("O Jogador 2 venceu")
     }
+/* 
+pedra papel = jogador 2;                  pedra tesoura = jogador 1;
+papel tesoura = jogador 2;                papel pedra = jogador 1;
+tesoura pedra = jogador 2;                tesoura papel = jogador 1;
+*/
