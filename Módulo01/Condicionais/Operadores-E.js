@@ -8,4 +8,4 @@ if (temIngresso === true && idade >= censura) {
     console.log("Barrada.");
 }
 
-// Operador && todas as variáveis dentro dos parenteses terão que ser verdadeiras.
+// Operador && todas as expressões dentro dos parenteses terão que ser verdadeiras, para retornar verdadeiro

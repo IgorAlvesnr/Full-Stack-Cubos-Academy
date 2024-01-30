@@ -16,4 +16,5 @@ if (temIngresso === true) {
     console.log("Barrada");
 }
 
-// O operador ||(ou) não precisa necessariamente todas as variáveis dentro do parenteses serem verdadeiras.
+/* O operador ||(ou) não precisa necessariamente todas as variáveis dentro do parenteses serem verdadeiras.
+retornará verdadeiro caso qualquer das expressões sejam verdadeiras.*/
