@@ -1,4 +1,4 @@
-let x = 10, y = 2;
+let x = 10, y = 2
 
 let resultado = x + y; //SOMA
 console.log(resultado); //12
