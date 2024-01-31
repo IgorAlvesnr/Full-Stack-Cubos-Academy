@@ -1,4 +1,4 @@
-const caractere = "A";
+const caractere = "2";
 
 if ("aeiou".includes(caractere.toLowerCase())) {
     console.log(`O caractere "${caractere}" é uma VOGAL MINÚSCULA`);
