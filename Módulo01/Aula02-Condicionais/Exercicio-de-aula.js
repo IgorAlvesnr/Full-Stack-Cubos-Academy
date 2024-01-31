@@ -17,6 +17,6 @@ if (numeroDeParcelas === 1) {
             const valorJuros = (valorFinal / numeroDeParcelas).toFixed(2);
             console.log(`Você deve pagar ${numeroDeParcelas}x de R$${valorJuros} com o Total da compra em R$${valorFinal} reais, Devido a incidência de juros.`)
         } else {
-            console.log("Número de parcelas invalidos.");
+            console.log("Número de parcelas invalidos.")
         }
 }
