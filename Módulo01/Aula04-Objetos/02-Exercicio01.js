@@ -2,7 +2,7 @@ const pessoa = {
     nome: "Igor",
     idade: 31,
     temCNH: true,
-    apelidos: ["Dodo", "Dinho"]
+    apelidos: ["Dodo", "Dinho", "Cabeça"]
 }
 
 let textoCNH = "";
@@ -13,6 +13,7 @@ if (pessoa.temCNH === true) {
 }
 
 
-console.log(`Eu ${pessoa.nome} tenho ${pessoa.idade} anos, ${textoCNH}, e meus apelidos são:
-- ${pessoa.apelidos[0]}
-- ${pessoa.apelidos[1]} `);
+console.log(`Eu ${pessoa.nome} tenho ${pessoa.idade} anos, ${textoCNH}, e meus apelidos são: `);
+for (let apelido of pessoa.apelidos) {
+    console.log(`- ${apelido}`)
+}
