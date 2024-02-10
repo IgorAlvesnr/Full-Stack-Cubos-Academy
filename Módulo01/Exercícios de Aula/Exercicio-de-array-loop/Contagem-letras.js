@@ -6,4 +6,9 @@ for (let letra of letras) {
         quantidade++;
     }
 }
-console.log(quantidade);
+
+if (quantidade === 0) {
+    console.log("Esse ARRAY não contém 'E' ou 'e'.")
+} else {
+    console.log(`Foram encontradas ${quantidade} letras "E" ou "e".`)
+}
