@@ -6,6 +6,6 @@ const pares = original.filter(numero => {
 console.log("Este ARRAY é só de números pares:", pares);
 
 const impares = original.filter(numero => {
-    return numero % 2 === 1;
+    return numero % 2 !== 0;
 })
 console.log("Este ARRAY é só de números impares:", impares);
