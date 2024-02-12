@@ -3,4 +3,4 @@ const maiorNumero = Math.max(...numeros);
 const menorNumero = Math.min(...numeros);
 
 const diferenca = maiorNumero - menorNumero;
-console.log(diferenca)
+console.log("A maior diferença deste ARRAY é:", diferenca);
