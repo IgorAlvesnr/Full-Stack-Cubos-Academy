@@ -29,7 +29,7 @@ const produtos = [
 ];
 
 const produtosEmEstoque = produtos.filter(produto => {
-    return produto.quantidade > 0; // Retorna true se a quantidade for maior que zero
+    return produto.quantidade > 0; // Retorna true se a quantidade for maior que zero.
 });
 
 console.log(produtosEmEstoque);
