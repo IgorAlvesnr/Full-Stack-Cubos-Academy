@@ -9,7 +9,7 @@ pessoa.nome = "Igor"
 pessoa['altura'] = 1.80
 
 console.log(pessoa.nome);
-console.log(`Meu nome é ${pessoa.nome}, tenho ${pessoa.altura} m e estou pesando ${pessoa.peso}Kg.`)
+console.log(`Meu nome é ${pessoa.nome}, tenho ${pessoa.altura} m e estou pesando ${pessoa.peso} Kg.`)
 
 /* Na Aula "Criando e manipulando Objetos" foram abordados os seguintes tópicos:
 
@@ -25,7 +25,7 @@ com outras strings.
 6.Esclarecimento de que, apesar de ser uma constante (const), é possível modificar o conteúdo das propriedades 
 do objeto.
 7.Diferença entre modificar uma propriedade do objeto e atribuir um novo objeto à variável, ressaltando que a 
-reatribuição do objeto não é permitida quando declarado com const. Caso fosse uma variável let seria possível 
+reatribuição do objeto não é permitida quando declarado como const. Caso fosse uma variável let seria possível 
 alterar.
 
 Esses conceitos são fundamentais para compreender a manipulação e utilização de objetos em JavaScript, 
