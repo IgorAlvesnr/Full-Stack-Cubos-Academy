@@ -23,4 +23,4 @@ aula.forEach(juntar => {
     curso.aulas.push(juntar)
 });
 
-console.log(curso);
+console.log(curso)
