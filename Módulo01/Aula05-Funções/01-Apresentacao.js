@@ -8,4 +8,4 @@ function imprimirOla() { //Declarei a função
 
 //nomeDaFuncao = pode ser inventado
 
-imprimirOla(); //chamando a funçã... O abrir e fechar parenteses é como se fosse o botão do play.
+imprimirOla(); //chamando a função. abrir e fechar parenteses é como se fosse o botão do play.
