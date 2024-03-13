@@ -1,11 +1,13 @@
-function somarArray(array) {
-    let soma = 0;
-    for (let elemento of array) {
-        soma += elemento;
+function solucao(lista) {
+    const todosNumeros = lista.every(item => typeof item === 'number');
+    if (!todosNumeros) {
+        return "Erro! Apenas números na lista.";
     }
+
+    const soma = lista.reduce((total, numero) => total + numero, 0);
     return soma;
 }
 
-const array = [1, 2, 3, 4];
-const resultado = somarArray(array);
-console.log(resultado);
+const lista = [1, 2, 3, 4];
+const somaTotal = solucao(lista);
+console.log(somaTotal);
