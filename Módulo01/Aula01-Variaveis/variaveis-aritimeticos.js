@@ -10,4 +10,4 @@ resultado = x * y; //MULTIPLICAÇÃO
 console.log(resultado); //20
 
 resultado = x / y; //DIVISÃO
-console.log(resultado); //5
+console.log(resultado);/*5*/
