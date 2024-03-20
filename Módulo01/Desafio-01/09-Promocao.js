@@ -3,9 +3,9 @@ function solucao(precos) {
         precos.sort((item1, item2) => item1 - item2);
         const desconto = precos[0] / 2;
         let total = precos.reduce((acumulado, itemAtual) => acumulado + itemAtual, 0) - desconto;
-        return total;
+        console.log(total);
     } else {
-        return precos.reduce((acumulado, itemAtual) => acumulado + itemAtual, 0);
+        console.log(precos.reduce((acumulado, itemAtual) => acumulado + itemAtual, 0));
     }
 }
 

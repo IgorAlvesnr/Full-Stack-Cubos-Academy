@@ -1,8 +1,10 @@
 function processData(input) {
-    if (input === input.toUpperCase() || input === input.charAt(0).toUpperCase() + input.slice(1).toLowerCase()) {
-        return input.charAt(0).toUpperCase() + input.slice(1).toLowerCase()
+    if (input === input.toUpperCase()) {
+        return input.toLowerCase();
+    } else if (input.charAt(0) === input.charAt(0).toLowerCase() && input.slice(1) === input.slice(1).toUpperCase()) {
+        return input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
     } else {
-        return input
+        return null;
     }
 }
 

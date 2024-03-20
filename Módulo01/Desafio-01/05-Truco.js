@@ -7,7 +7,7 @@ function solucao(carta) {
         2: "3",
         3: "Q"
     };
-    return cartasManilhas[carta];
+    console.log(cartasManilhas[carta]);
 }
 const cartaVirada = "Q";
 const manilha = solucao(cartaVirada);

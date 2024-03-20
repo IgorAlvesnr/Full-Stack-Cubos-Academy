@@ -1,7 +1,7 @@
 function solucao(texto) {
     texto = texto.trim();
     const palavras = texto.split(/\s+/)
-    return palavras.length;
+    console.log(palavras.length);
 }
 const texto1 = "Um texto qualquer";
 console.log(solucao(texto1));

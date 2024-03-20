@@ -9,11 +9,11 @@ function solucao(jogadores) {
         }
     }
     if (jogadoresZero.length === 1) {
-        return jogadoresZero[0];
+        console.log(jogadoresZero[0]);
     } else if (jogadoresUm.length === 1) {
-        return jogadoresUm[0];
+        console.log(jogadoresUm[0]);
     } else {
-        return "NINGUEM"
+        console.log("NINGUEM");
     }
 
 }
@@ -27,4 +27,5 @@ const jogadores = [
     { nome: "Saundra", jogada: 0 },
     { nome: "Klein", jogada: 0 }
 ];
-console.log(solucao(jogadores));
+
+solucao(jogadores);

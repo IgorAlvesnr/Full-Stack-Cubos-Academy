@@ -1,8 +1,8 @@
-function verificarIntervalo(numero, limiteInferior, limiteSuperior) {
+function solucao(numero, limiteInferior, limiteSuperior) {
     if (numero >= limiteInferior && numero <= limiteSuperior) {
-        return "PERTENCE"
+        console.log("PERTENCE");
     } else {
-        return "N PERTENCE"
+        console.log("NAO PERTENCE");
     }
 }
 
@@ -10,6 +10,4 @@ const numero = 10;
 const limiteInferior = 5;
 const limiteSuperior = 20;
 
-
-const resultado = verificarIntervalo(numero, limiteInferior, limiteSuperior);
-console.log(resultado);
+solucao(numero, limiteInferior, limiteSuperior);

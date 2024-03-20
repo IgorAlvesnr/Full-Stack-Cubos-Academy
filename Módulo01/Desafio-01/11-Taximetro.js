@@ -1,29 +1,17 @@
 function solucao(min, km) {
     const precoMinutoBase = 50;
     const precoKmBase = 70;
-
     const precoMinutoExcedente = 30;
     const precoKmExcedente = 50;
 
-    let precoViagem = ((min * precoMinutoBase) + (km * precoKmBase));
+    let precoDentroLimites = (Math.min(min, 20) * precoMinutoBase) + (Math.min(km, 10) * precoKmBase);
 
-    if (min > 20 && km > 10) {
-        const tempoExcedido = min - 20;
-        precoViagem += tempoExcedido * precoMinutoExcedente;
-        const kmExcedido = km - 10;
-        precoViagem += kmExcedido * precoKmExcedente
-    } else if (min > 20) {
-        const tempoExcedido = min - 20;
-        precoViagem += tempoExcedido * precoMinutoExcedente
-    } else if (km > 10) {
-        const kmExcedido = km - 10;
-        precoViagem += kmExcedido * precoKmExcedente
-    }
-    return Math.floor(precoViagem)
+    let minExcedente = Math.max(0, min - 20) * precoMinutoExcedente;
+    let kmExcedente = Math.max(0, km - 10) * precoKmExcedente;
+
+    let precoTotal = precoDentroLimites + minExcedente + kmExcedente;
+
+    console.log(precoTotal);
 }
 
-
-const min = 25;
-const km = 11.5;
-
-console.log(solucao(min, km));
+solucao(25, 11.5)
