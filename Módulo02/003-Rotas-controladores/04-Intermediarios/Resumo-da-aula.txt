@@ -1,0 +1,15 @@
+Na aula sobre Intermediários Independentes, foi abordado o conceito de middleware no Express.js, que são funções intermediárias 
+executadas antes de chegar a uma rota específica. Esses intermediários independentes são utilizados para filtrar requisições 
+e realizar validações ou manipulações antes que cheguem às rotas da aplicação.
+
+Durante a aula, destacou-se como criar um intermediário independente, que geralmente recebe os parâmetros req, res e next, e como 
+registrá-lo no Express utilizando o método use. Esses intermediários são executados antes de qualquer chamada de rota, permitindo 
+controlar o fluxo de dados e realizar ações específicas.
+
+Um exemplo prático apresentado foi o uso de dois intermediários independentes, primeiroIntermediario e segundoIntermediario, que 
+foram registrados utilizando app.use em ordem. Dessa forma, ambos os intermediários foram executados antes de qualquer chamada de 
+rota, demonstrando a possibilidade de criar e utilizar múltiplos intermediários de forma organizada.
+
+Compreender o conceito e a aplicação de intermediários independentes é essencial para implementar lógicas intermediárias em 
+aplicações Express.js, garantindo maior controle sobre o fluxo de requisições e permitindo realizar validações e operações 
+específicas de forma modular e reutilizável.
