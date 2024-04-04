@@ -1,0 +1,13 @@
+Na aula de Controladores, foi abordado o conceito de separação de responsabilidades no desenvolvimento de aplicações web. 
+Controladores são responsáveis por processar requisições HTTP e retornar respostas ao cliente de forma organizada e estruturada.
+
+Foi destacado que a criação de controladores em arquivos separados, como o caso do arquivo professores.js, permite concentrar 
+as funções relacionadas aos professores em um único local, facilitando a manutenção e gerenciamento do código.
+
+Além disso, foram apresentados exemplos práticos de como importar e utilizar controladores em arquivos de rotas, demonstrando 
+a importância da organização do código através da separação de preocupações. Por exemplo, a função "filtrarProfessores" foi 
+utilizada como um controlador para a rota /professores, mostrando como processar uma requisição e retornar uma resposta específica.
+
+Compreender o uso de controladores é fundamental para modularizar e organizar o código de uma aplicação, tornando-a mais 
+escalável e fácil de dar manutenção. A divisão de tarefas entre controladores, rotas e bancos de dados facilita o desenvolvimento 
+de aplicações com uma arquitetura mais robusta e eficiente.

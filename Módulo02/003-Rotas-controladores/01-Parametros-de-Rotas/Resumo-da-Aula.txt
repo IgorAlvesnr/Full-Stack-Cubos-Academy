@@ -1,0 +1,11 @@
+Na aula sobre "Parâmetros de rotas no Express.js", aprendemos como passar e recuperar informações nas rotas do Express.js. 
+Foi explicado que os parâmetros de rota são partes da URL que definem a estrutura da rota, enquanto os parâmetros de 
+consulta são opcionais e são utilizados para filtrar e personalizar requisições.
+
+Um exemplo de uso de parâmetros de rota seria uma rota /usuarios/:id, onde o parâmetro id é essencial para acessar um usuário 
+específico. Esses parâmetros são acessados no servidor utilizando o objeto req.params. Já os parâmetros de consulta são 
+incluídos na URL após o símbolo de interrogação e são recuperados no servidor através de req.query.
+
+Compreender a diferença entre parâmetros de rota e consulta é fundamental para desenvolver aplicações web dinâmicas, pois 
+permite uma interação mais personalizada entre o cliente e o servidor, facilitando buscas específicas e filtros de dados 
+de acordo com as necessidades do usuário.

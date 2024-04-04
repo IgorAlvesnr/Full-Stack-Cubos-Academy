@@ -1,0 +1,19 @@
+Nesta aula, estamos aprendendo sobre parâmetros de consulta no Express.js. Esses parâmetros, também conhecidos como "query strings",
+são utilizados para enviar informações extras em uma requisição HTTP, geralmente para filtros ou buscas mais específicas 
+no servidor.
+
+Para criar parâmetros de consulta, é necessário adicionar um ponto de interrogação (?) na URL após a rota principal, seguido pelo 
+nome do parâmetro e seu valor. Por exemplo: /professores?nome=Guido&steck=back-end.
+
+No Express.js, esses parâmetros são recuperados através do objeto requisicao.query ou utilizando a desestruturação. Podemos então utilizar 
+esses parâmetros para filtrar ou buscar informações específicas no servidor, conforme mostrado no exemplo de código dado na aula.
+
+É importante lembrar que os parâmetros de consulta são opcionais, ou seja, eles podem existir ou não na URL. Isso nos dá a 
+flexibilidade de ajustar os resultados retornados no servidor conforme as necessidades da aplicação.
+
+Além disso, foi destacado na aula a diferença entre parâmetros de rota, que são obrigatórios, e parâmetros de consulta, que são 
+opcionais. Enquanto os parâmetros de rota são essenciais para acessar rotas específicas, os parâmetros de consulta permitem uma 
+maior personalização das requisições feitas para o servidor.
+
+Este conhecimento sobre parâmetros de consulta é fundamental para desenvolver aplicações web dinâmicas e interativas, permitindo 
+uma interação mais precisa e eficiente entre o cliente e o servidor.
