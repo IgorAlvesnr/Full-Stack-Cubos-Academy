@@ -13,3 +13,19 @@ rota, demonstrando a possibilidade de criar e utilizar múltiplos intermediário
 Compreender o conceito e a aplicação de intermediários independentes é essencial para implementar lógicas intermediárias em 
 aplicações Express.js, garantindo maior controle sobre o fluxo de requisições e permitindo realizar validações e operações 
 específicas de forma modular e reutilizável.
+
+=> Intermediário da Rota, foi explorado o conceito de utilizar middleware de forma específica em determinadas rotas 
+dentro de uma aplicação Express.js. Um middleware de rota é uma função que é executada antes de chegar à rota específica em que 
+foi definida, permitindo aplicar lógicas intermediárias de maneira focada e organizada.
+
+Foi discutido como registrar um middleware de rota em uma rota específica utilizando o método `app.get` em conjunto com o 
+middleware desejado. Por exemplo, ao definir `app.get('/professores', intermediarioDaRota, filtrarProfessores)`, o middleware 
+`intermediarioDaRota` será executado antes de chegar à função `filtrarProfessores`.
+
+Também foi ressaltado que a ordem de registro dos middlewares é importante, pois eles são executados na sequência em que0 
+foram declarados. Dessa forma, é possível ter um controle preciso sobre o fluxo de execução das lógicas intermediárias e 
+garantir que as validações e manipulações necessárias sejam realizadas antes de chegar ao controlador da rota.
+
+Compreender e aplicar intermediários de rota é fundamental para modularizar e organizar o código de uma aplicação Express.js 
+de forma mais granular e controlada, permitindo implementar validações e manipulações específicas em cada rota de maneira 
+estruturada e eficiente.
