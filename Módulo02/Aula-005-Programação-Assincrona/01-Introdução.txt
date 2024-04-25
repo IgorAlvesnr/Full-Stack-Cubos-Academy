@@ -1,0 +1,10 @@
+Sincrono e Assíncrono
+
+=> Código Síncrono:
+    Um código síncrono é executado sequencialmente, de forma que, antes de exercutar a próxima linha, a execução da 
+    linha anterior precisa ser finalizada. Ou seja, execução sequencial do código.
+
+=> Código Assíncrono:
+    Um código assíncrono é executado de maneira não linear. Vai deixando tarefas para serem tratadas depois, conforme 
+    for necessário. Ou seja, execução não sequencial do código.
+
