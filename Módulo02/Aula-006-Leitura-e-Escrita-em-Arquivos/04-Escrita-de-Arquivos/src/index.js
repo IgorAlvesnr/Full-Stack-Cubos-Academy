@@ -33,3 +33,5 @@ app.post('/', async (req, res) => {
 });
 
 app.listen(3000);
+
+/* Usar o Try {} catch {} é importante para que o programa não trave no erro. */
