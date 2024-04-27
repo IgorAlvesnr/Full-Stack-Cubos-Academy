@@ -1,0 +1,24 @@
+Em tecnologia, "parse" é o processo de analisar uma string de dados em um formato específico (como JSON) e transformá-la
+em objetos ou estruturas de dados utilizáveis. 
+
+Já "stringify" é o oposto, ou seja, converter objetos ou estruturas de dados em uma string no formato desejado (como JSON),
+facilitando o armazenamento ou transmissão desses dados. 
+
+Por exemplo, ao ler um arquivo JSON com informações de usuários em um sistema, o processo de "parse" será utilizado para
+transformar essas informações em objetos JavaScript. Já ao salvar novas informações de usuários no arquivo, o processo 
+de "stringify" será aplicado para converter os objetos em formato JSON antes de escrevê-los no arquivo novamente.
+
+As funções "parse" e "stringify" são comumente utilizadas na manipulação de dados em formatos como JSON em programação.
+
+O método parse é útil quando se trabalha com dados recebidos em formato de string (como dados de uma API) e é necessário 
+convertê-los em objetos ou estruturas de dados utilizáveis na linguagem de programação utilizada. Por exemplo, ao receber 
+uma resposta de uma requisição HTTP no formato JSON, o uso do parse permite transformar esses dados em objetos JavaScript 
+para facilitar o seu uso e manipulação.
+
+Já o método stringify é útil quando se deseja enviar ou armazenar dados estruturados em formato de string, como no caso 
+de salvar informações em um arquivo no formato JSON. Por exemplo, ao adicionar novos dados a um objeto JavaScript e depois
+salvar esses dados em um arquivo no formato JSON, utiliza-se o stringify para converter o objeto em uma string formatada 
+no padrão JSON antes de salvá-lo.
+
+Portanto, essas funções são essenciais para realizar a conversão de dados entre representações em formato de string e 
+objetos, tornando mais prática a manipulação e armazenamento de informações em aplicações de desenvolvimento de software.

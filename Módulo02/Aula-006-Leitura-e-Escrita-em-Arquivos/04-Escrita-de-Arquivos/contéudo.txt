@@ -1,0 +1,14 @@
+Foi abordado o processo de escrita em arquivos utilizando a biblioteca FS do Node.js. Foram apresentados conceitos como 
+a utilização do método writeFile para criar ou sobrescrever arquivos de texto, passando o caminho absoluto do arquivo a 
+ser manipulado.
+
+Além disso, foi explorada a manipulação de dados antes da escrita, como a desestruturação de informações recebidas e a 
+conversão de objetos JavaScript em strings JSON utilizando o método JSON.stringify. Também foi enfatizada a importância 
+de verificação do conteúdo do arquivo após a escrita para garantir a correta manipulação dos dados.
+
+Por fim, foram demonstradas práticas relacionadas à criação de arquivos, sobrescrita de conteúdo, e manipulação de dados 
+antes da escrita, contribuindo para o entendimento do processo de escrita em arquivos em aplicações JavaScript utilizando 
+Node.js. 
+
+Esses conceitos são fundamentais para operações de leitura e escrita de dados em arquivos, ampliando as 
+possibilidades de manipulação e armazenamento de informações em sistemas e aplicações.
