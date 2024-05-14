@@ -1,0 +1,8 @@
+Conteúdo
+
+Query: 
+São trechos de códigos SQL que representam instruções a serem executadas em bancos de dados.
+
+Select:
+É uma palavra reservado SQL utilizada para construir queries de consultas em bancos de dados.
+
