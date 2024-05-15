@@ -1,8 +1,52 @@
-Conteúdo
+                            Conteúdo
 
-Query: 
-São trechos de códigos SQL que representam instruções a serem executadas em bancos de dados.
+QUERY: 
+    São trechos de códigos SQL que representam instruções a serem executadas em bancos de dados.
 
-Select:
-É uma palavra reservado SQL utilizada para construir queries de consultas em bancos de dados.
+SELECT:
+    É uma palavra reservado SQL utilizada para construir queries de consultas em bancos de dados.
 
+ex1.: SELECT * FROM musicas; => Seleciona todos os registros, com todas as colunas, da tabela musicas. 
+(Pode ser usado ALL em vez de *).
+ex2.: SELECT id, composicao FROM musicas; => Seleciona todos os registros, com as colunas id e composicao, da tabela musicas.
+
+DISTINCT:
+    É uma palavra reservada do SQL utilizada para trazer registros únicos por campos da tabela.
+
+ex1.: select distinct compositor musicas; => irá trazer apenas uma vez os nomes de todos os compositores contidos na tabela musicas, 
+mesmos que apareçam mais de uma vez.
+
+WHERE: 
+    É usada para filtrar registros;
+    Filtra registros que atendem a uma ou varias condições;
+    As consdições validam expressões lógicas;
+
+ex1.: select * from musicas where tempo < 100; => retornará apenas os registros menor 100 no campo tempo.
+
+OBS.: 
+    Operadores Lógicos do WHERE: AND, OR, NOT;
+    Operadores de comparação do WHERE: <, >, <=, >=, =, (!= ou <>) diferente.
+    Predicados de comparação: BETWEEN (para pegar de tal a tal campo), IS NULL, IS NOT NULL.
+
+LIMIT:
+    Palavra reservada que limita a quantidade de resultados, partindo do primeiro registro, de acordo com a ordenação.
+
+ex1.: select * from musicas limit 3; => Seleciona os 3 registros da tabela musicas. 
+
+OFFSET:
+    Palavra reservada que ignora os resultados de acordo com a quantidade informada, partindo do primeiro registro.
+
+ex1.: select * from musicas offset 3; => Seleciona todos os registros da tabela musicas, ignorando os 3 primeiros.
+
+ORDER BY:
+    Palavra reserva que ordena um ou mais campos de forma ascendente ou descendente. Por padrão a ordenação é ascendente.
+
+ex1.: select * from musicas order by id asc; => Seleciona todos os registros da tabela musicas e ordena de forma crescente 
+pelo campo id.
+
+LIKE e ILIKE:
+    É usado para comparar um valor numa claúsula where e permite usar coringas para comparar partes de uma correspondência.
+
+    Lista de coringas:
+        % (porcentagem) - significa qualquer quantidade de caracteres até sua posição;
+        _ (underline) - significa um caractere em sua posição;
